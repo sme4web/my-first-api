@@ -13,7 +13,7 @@ const users = [
   ];
 
 // GET
-app.get('/', (req, res) => {
+app.get('/app', (req, res) => {
     res.json(users);
 })
 // POST
